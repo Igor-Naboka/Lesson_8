@@ -1,0 +1,16 @@
+@import "null.css";
+
+/* universal selectors */
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+[class*="__container"] {
+  max-width: 830px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* other selectors */
